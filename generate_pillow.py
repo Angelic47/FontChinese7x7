@@ -2,13 +2,12 @@
 
 from PIL import Image, ImageDraw, ImageFont
 from typing import Tuple
-ImageFont.FreeTypeFont
 
 class PILFont():
     def __init__(self, font_path: str, font_size: int) -> None:
         self.__font = ImageFont.FreeTypeFont(font_path, font_size)
     
-    def render_text(self, text: str, offset: Tuple[int, int] = (0, 0)):
+    def render_text(self, text: str, offset: Tuple[int, int] = (0, 0)) -> Image:
         ''' 绘制文本图片
             > text: 待绘制文本
             > offset: 偏移量
