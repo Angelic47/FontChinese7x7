@@ -59,6 +59,7 @@
 ~~当然, 如果你知道如何解决这个问题, 那么非常欢迎提出一个Pull Requests!~~
 
 这里感谢 [@Dreagonmon](https://github.com/Dreagonmon) 提供了一个使用Pillow的取模脚本generate_pillow.py, 能够在Windows10上正常取模而不受到GDI的抗锯齿干扰. 
+
 也要感谢 [@LXYan2333](https://github.com/LXYan2333) 重新将该字体文件矢量化成了像素风格, 文件名为JiZhi-bitmap-8.bdf, 方便大家直接使用.
 
 # 项目版权
